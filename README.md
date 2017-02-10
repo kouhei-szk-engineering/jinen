@@ -1,32 +1,38 @@
-# jinen
+jinen
+====
 
-##Description
+[工房じねんWebサイト](http://jinen.hokkaido.jp/)の開発環境。
 
-工房じねんwebサイト（WordPress)の改善or改修に向けた開発環境。
-WordPress環境の構築作業の自動化も目指す。
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-##Features
+	- [Features](#features)
+	- [Requirement](#requirement)
+		- [Docker](#docker)
+	- [Usage](#usage)
+	- [Goal](#goal)
+	- [Misc.](#misc)
 
+<!-- /TOC -->
 
+## Features
+(T.B.D.)
 
 ## Requirement
 
-環境構築のため
+### Docker
 - Dockerのインストール
-- Docker-composeのインストール
+    - `$ brew cask install docker`
+- Docker-Composeのインストール
+    - `$ brew install docker-compose`
 
 ## Usage
-
-1. Dockerのインストール
-
-	`% brew cask install docker`
-2. docker-composeのインストール
-
-	`$ brew install docker-compose`
-
+(T.B.D.)
 
 ## Goal
-改善or改修の内訳としては
-- webサイト内のコピペ禁止、バックアップ最適化、ギャラリーを軽快な状態に保つ、以上３点
+- WordPress環境の自動構築
+- 問い合わせフォーム内のコピー&ペースト禁止
+- バックアップの最適化
+- 軽快な状態の維持
 
-##Anything Else
+## Misc.
+(T.B.D.)
