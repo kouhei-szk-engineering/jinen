@@ -2,7 +2,7 @@
 
 ##Description
 
-工房じねんwebサイト（WordPress)の改善or改修に向けたテスト開発環境。
+工房じねんwebサイト（WordPress)の改善or改修に向けた開発環境。
 WordPress環境の構築作業の自動化も目指す。
 
 ##Features
@@ -11,23 +11,22 @@ WordPress環境の構築作業の自動化も目指す。
 
 ## Requirement
 
-テスト環境の構築のため
+環境構築のため
 - Dockerのインストール
 - Docker-composeのインストール
-- WordPress、MySQL環境を構築
-
 
 ## Usage
 
 1. Dockerのインストール
-	https://www.docker.com/
+	'% brew cask install docker'
 2. docker-composeのインストール
-	$ docker-compose up -d
+	'$ brew install docker-compose'
 
-##Anything Else
 
+## Goal
 改善or改修の内訳としては
 - webサイト内のコピペ禁止、バックアップ最適化、ギャラリーを軽快な状態に保つ、以上３点
 
+##Anything Else
 
 
