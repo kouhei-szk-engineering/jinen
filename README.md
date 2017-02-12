@@ -9,7 +9,9 @@ Table of Contents
 - [Requirement](#requirement)
 	- [Docker](#docker)
 - [Usage](#usage)
-	- [.env](#env)
+	- [1. .env](#1-env)
+	- [2. docker-compose up](#2-docker-compose-up)
+	- [3. docker-compose stop](#3-docker-compose-stop)
 - [Goal](#goal)
 - [Misc.](#misc)
 
@@ -25,8 +27,14 @@ Table of Contents
     - `$ brew install docker-compose`
 
 ## Usage
-### .env
+### 1. .env
 `docker/env.sample` を参考に、 `docker/.env` を作成する。
+
+### 2. docker-compose up
+`docker` ディレクトリで、 `$ docker-compose up -d` する。
+
+### 3. docker-compose stop
+開発を終了する際、 `$ docker-compose stop` する。
 
 ## Goal
 - WordPress環境の自動構築
