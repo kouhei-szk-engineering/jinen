@@ -3,16 +3,15 @@ jinen
 
 [工房じねんWebサイト](http://jinen.hokkaido.jp/)の開発環境。
 
-<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-	- [Features](#features)
-	- [Requirement](#requirement)
-		- [Docker](#docker)
-	- [Usage](#usage)
-	- [Goal](#goal)
-	- [Misc.](#misc)
-
-<!-- /TOC -->
+Table of Contents
+----
+- [Features](#features)
+- [Requirement](#requirement)
+	- [Docker](#docker)
+- [Usage](#usage)
+	- [.env](#env)
+- [Goal](#goal)
+- [Misc.](#misc)
 
 ## Features
 (T.B.D.)
@@ -26,7 +25,8 @@ jinen
     - `$ brew install docker-compose`
 
 ## Usage
-(T.B.D.)
+### .env
+`docker/env.sample` を参考に、 `docker/.env` を作成する。
 
 ## Goal
 - WordPress環境の自動構築
