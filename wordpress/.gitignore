@@ -68,5 +68,7 @@ wp-content/plugins/hello.php
 /sitemap.xml
 /sitemap.xml.gz
 
+### Docker ###
+*.env
 
 # End of https://www.gitignore.io/api/wordpress,windows,macos
