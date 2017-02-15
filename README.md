@@ -36,6 +36,9 @@ Table of Contents
 ### 3. docker-compose stop
 開発を終了する際、 `$ docker-compose stop` する。
 
+### 3. docker-compose down
+コンテナを削除する際、 `$docker-compose down` する。
+
 ## Goal
 - WordPress環境の自動構築
 - 問い合わせフォーム内のコピー&ペースト禁止
