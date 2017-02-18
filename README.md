@@ -27,16 +27,20 @@ Table of Contents
     - `$ brew install docker-compose`
 
 ## Usage
-### 1. .env
+
+### 1..docker-compose.yml
+WordPress、MySQL環境構築のためのdocker-compose.ymlの作成
+
+### 2. .env
 `docker/env.sample` を参考に、 `docker/.env` を作成する。
 
-### 2. docker-compose up
+### 3. docker-compose up
 `docker` ディレクトリで、 `$ docker-compose up -d` する。
 
-### 3. docker-compose stop
+### 4. docker-compose stop
 開発を終了する際、 `$ docker-compose stop` する。
 
-### 3. docker-compose down
+### 5. docker-compose down
 コンテナを削除する際、 `$docker-compose down` する。
 
 ## Goal

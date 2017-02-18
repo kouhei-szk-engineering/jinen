@@ -7,7 +7,6 @@ RUN apt-get -y install wget unzip
 # WP プラグイン (zip) を wget で直接ダウンロード
 # 2/15 文字コードをUTF-8へ変更
 WORKDIR /tmp/wp-plugins
-RUN wget https://downloads.wordpress.org/plugin/contact-form-7.4.6.1.zip
 RUN wget https://downloads.wordpress.org/plugin/syntaxhighlighter.zip
 RUN wget https://downloads.wordpress.org/plugin/wp-emmet.zip
 
