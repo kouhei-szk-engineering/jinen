@@ -43,6 +43,17 @@ WordPress、MySQL環境構築のためのdocker-compose.ymlの作成
 ### 5. docker-compose down
 コンテナを削除する際、 `$docker-compose down` する。
 
+### 6.mysqldump
+DBに保存されたデータを.sql
+ファイルとしてバックアップする。
+`$ docker exec -it dbコンテナ名 sh -c 'mysqldump wordpress -u wp_user -phogehoge 2> /dev/null' > db-data/mysql.dump.sql
+`
+### 7.Dockerfileの作成
+プラグインインストール処理を追加したDockerfileを作成。
+doker-compose.ymlに下記を追加
+		`build: ./my-wordpress`
+
+
 ## Goal
 - WordPress環境の自動構築
 - 問い合わせフォーム内のコピー&ペースト禁止
