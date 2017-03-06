@@ -12,7 +12,8 @@ services:
         env_file: .env
         volumes:
             #- ./themes/bones:/var/www/html/wp-content/themes/bones
-            - "./html:/var/www/html"
+            #- "./html:/var/www/html"
+            - "../wordpress:/var/www/html"
     db:
         image: mysql:latest
         env_file: .env
