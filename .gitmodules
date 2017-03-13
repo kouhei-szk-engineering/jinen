@@ -1,0 +1,3 @@
+[submodule "wordpress/wp-content/plugins/agp-font-awesome-collection"]
+	path = wordpress/wp-content/plugins/agp-font-awesome-collection
+	url = https://github.com/wp-plugins/agp-font-awesome-collection
