@@ -1,8 +1,8 @@
 version: "2"
 services:
     wordpress:
-        #build: ./my-wordpress
-        image: wordpress:latest
+        build: ./my-wordpress
+        #image: wordpress:latest
         ports:
             - "8080:80"
         depends_on:
@@ -10,10 +10,10 @@ services:
         environment:
             WORDPRESS_DB_HOST: "db:3306"
         env_file: .env
-        volumes:
+        #volumes:
             #- ./themes/bones:/var/www/html/wp-content/themes/bones
             #- "./html:/var/www/html"
-            - "../wordpress:/var/www/html"
+            #- "../wordpress:/var/www/html"
     db:
         image: mysql:latest
         env_file: .env
