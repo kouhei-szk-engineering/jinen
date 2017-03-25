@@ -10,7 +10,7 @@ RUN wget https://downloads.wordpress.org/plugin/contact-form-7.4.6.zip
 RUN wget https://downloads.wordpress.org/plugin/syntaxhighlighter.zip
 RUN wget https://downloads.wordpress.org/plugin/wp-emmet.zip
 RUN wget https://downloads.wordpress.org/plugin/agp-font-awesome-collection.zip
-RUN wget https://downloads.wordpress.org/plugin/akismet.3.2.zip
+# RUN wget https://downloads.wordpress.org/plugin/akismet.3.2.zip
 RUN wget https://downloads.wordpress.org/plugin/backwpup.3.3.6.zip
 RUN wget https://downloads.wordpress.org/plugin/better-delete-revision.1.6.1.zip
 RUN wget https://downloads.wordpress.org/plugin/css-javascript-toolbox.8.3.1.zip
